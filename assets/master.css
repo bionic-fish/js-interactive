@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.box {
+    border-radius: 15px;
+    height: 200px;
+    width: 100%;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box h5,
+.box a {
+    color: rgb(228, 120, 31);
+    font-size: 1.3em;
+    text-shadow: 2px 2px #fff;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+    transition: all 1s ease-in;
+    
+}
+.box a:hover {
+    border-bottom: 4px solid rgb(228, 120, 31);
+}
+/* header [topbar] */
+.header {
+    background-color: #333;
+    
+    color: #fff;
+    letter-spacing: 5px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+.header a {
+    color: rgb(228, 120, 31);
+    text-decoration: none;
+}
+
+.header a:hover {
+    border-bottom: 5px solid rgb(228, 120, 31);;
+    padding: 2px;
+}
+
+/* banner [banner] */
+.banner {
+    padding: 20px;
+    background-color: #fff;
+}
+.accent {
+    color: rgb(228, 120, 31);
+}
+.banner i {
+    font-size: 28px;
+    color: rgb(228, 120, 31);
+}
+section {
+    padding: 10px;
+    
+}
+section h2 {
+    border-bottom: 3px solid rgb(228, 120, 31);
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+/* box__[project] background */
+.box__clock {background-image: url('../assets/img/box-clock.JPG');}
+.box__contacts {background-image: url('../assets/img/box-contacts.JPG');}
+.box__futurama {background-image: url('../assets/img/box-futurama.JPG');}
+.box__management {background-image: url('../assets/img/box-manager.JPG');}
+.box__weather {background-image: url('../assets/img/box-weather.JPG');}
+
+@media screen and (min-width: 900px) {
+    .flex {
+        display: flex;
+        /* flex-wrap: wrap;
+        flex-direction: row; */
+        /* width: 500px; */
+        margin: auto;
+    }
+    .flex .box {
+        max-width: 350px;
+    }
+    .box {
+        margin: 10px auto;
+        max-width: 900px;
+        height: 300px;
+        /* border: 1px solid rgba(255, 149, 10, 0.9); */
+    }
+}

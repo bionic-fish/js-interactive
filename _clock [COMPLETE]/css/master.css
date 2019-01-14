@@ -1,0 +1,64 @@
+/* Global Styles + Attributes */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  background: lightblue;
+}
+h1 {
+  color: #fff;
+  text-shadow: 2px 2px darkblue;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 42px;
+  font-family: 'Coiny', cursive;
+}
+h3 {
+  font-family: 'Wallpoet', cursive;
+  text-align: center;
+  text-shadow: 2px 2px darkblue;
+  letter-spacing: 5px;
+  color: #fff;
+}
+/* Clock + Clock Face Properties */
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border: 20px solid skyblue;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+  box-shadow:
+    0 0 0px 4px rgba(27, 1, 255, 0.4),
+    inset 0 0 0 3px #efefef,
+    inset 0 0 0 10px #fff,
+    0 0 10px rgba(27, 1, 255, 0.9);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translate(-3px);
+}
+
+/* Clock Hour + Minute + Second Hands */
+.hand {
+  width: 50%;
+  height: 6px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.5s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+
