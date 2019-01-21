@@ -112,6 +112,6 @@ section h2 {
         max-width: 900px;
         height: 300px;
         /* border: 5px solid rgb(228, 120, 31); */
-        border: 1px solid rgba(255, 149, 10, 0.9);
+        border: 3px solid #333;
     }
 }
