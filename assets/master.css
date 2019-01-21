@@ -90,6 +90,7 @@ section h2 {
 .box__contacts {background-image: url('../assets/img/box-contacts.JPG');}
 .box__management {background-image: url('../assets/img/box-manager.JPG');}
 .box__material {background-image: url('../assets/img/box-material.JPG');}
+.box__promo {background-image: url('../assets/img/box-holiday.JPG');}
 
 /* ANIMATION SECTION : box__[animation] background */
 .box__gigabyte {background-image: url(../assets/img/box-gigabtye.JPG);}
@@ -110,6 +111,7 @@ section h2 {
         margin: 10px auto;
         max-width: 900px;
         height: 300px;
-        /* border: 1px solid rgba(255, 149, 10, 0.9); */
+        /* border: 5px solid rgb(228, 120, 31); */
+        border: 1px solid rgba(255, 149, 10, 0.9);
     }
 }
